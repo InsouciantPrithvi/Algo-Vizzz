@@ -1,15 +1,11 @@
 ## Visualisation of Famous Algorithms
-<img src="https://i.ibb.co/gTLxDRb/Annotation-2020-10-04-061537.png" />
 
-# How to run this project ?
-
--   You should have NodeJS insalled in your localhost machine [Download NodeJS](https://nodejs.org/en/)
--   Open Terminal
--   Navigate to Project Directory
--   Enter the following command `npm install` this will install all required dependencies
--   After the previous command is executed, Enter the following command `npm start`
--   Wait for it to compile
--   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Guide
+-   Requires NodeJs
+-   Enter the following command `npm install` in order to install the req. dependencies
+-   Now enter `npm start` to run this web app on localhost
+-   After compilation app will be started on http://localhost:3000/
 -   Enjoy the visualiser
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<i> Plz feel free to suggest or report bugs if any!!!!!!!!
+  #Happy Coding
