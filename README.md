@@ -7,5 +7,4 @@
 -   After compilation app will be started on http://localhost:3000/
 -   Enjoy the visualiser
 
-<i> Plz feel free to suggest or report bugs if any!!!!!!!! <i>
-#Happy Coding
+# Happy Coding
