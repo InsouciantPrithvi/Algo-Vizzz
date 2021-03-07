@@ -18,6 +18,17 @@ const NavBar = () => (
         &nbsp; Sarvajit Kumar
       </a>
     </span>
+    <span
+      style={{
+        fontSize: 25,
+        fontWeight: "bold",
+        fontFamily: "roboto",
+        color: "skyblue",
+        marginLeft: "30%",
+      }}
+    >
+      Algo--Viz
+    </span>
   </div>
 );
 

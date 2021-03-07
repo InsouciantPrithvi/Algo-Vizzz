@@ -14,13 +14,13 @@
             .left_triangle {
                     fill:#2F3857;
                     transform-origin: 110px 110px;
-                    animation: rot 0.5s 1s infinite reverse cubic-bezier(0.645, 0.045, 0.355, 1);
+                    animation: rot 3s 1s infinite reverse cubic-bezier(0.645, 0.045, 0.355, 1);
             }
             
             .right_triangle {
                 fill: #2F3857;
                 transform-origin: 330px 110px;
-                animation: rot 0.5s 1s infinite cubic-bezier(0.645, 0.045, 0.355, 1);
+                animation: rot 3s 1s infinite cubic-bezier(0.645, 0.045, 0.355, 1);
             }
             
             .gradient {
@@ -40,7 +40,7 @@
     </clipPath>
 
     <clipPath id="right_clip-path">
-        <rect x="220" y="0" width="220" height="220" />
+        <rect x="220" y="0" width="220" height="120" />
     </clipPath>
 
     <linearGradient id="linear-gradient" y1="-17.636" x2="1.197" y2="-17.636" gradientUnits="objectBoundingBox">

@@ -5,25 +5,11 @@ import LinearThumb from "./thumbs/linear.jpg";
 import BinaryThumb from "./thumbs/binary.jpg";
 import NQueensThumb from "./thumbs/nqueens.jpg";
 import PathThumb from "./thumbs/path.jpg";
-import SortingThumb from "./thumbs/sorting.jpg";
+import SortingThumb from "./thumbs/sorting.png";
 import WordSearch from "./thumbs/word_search.jpg";
-
-import MaskedStyleSVG from "./svg/maskShapesNew.svg";
 
 import "./bootstrap.min.css";
 
-const maskStyles = {
-  margin: "0 auto",
-  textAlign: "center",
-  backgroundImage: `url(${MaskedStyleSVG})`,
-  backgroundSize: "cover",
-  backgroundPosition: "50%",
-  backgroundRepeat: "no-repeat",
-  width: "auto",
-  backgroundClip: "text",
-  WebkitBackgroundClip: "text",
-  color: "transparent",
-};
 export default class IndexTable extends React.Component {
   constructor(props) {
     super(props);
@@ -33,16 +19,9 @@ export default class IndexTable extends React.Component {
   render() {
     return (
       <div className="container mt-2">
-        <div className="text-center text-muted">
-          <h1 style={maskStyles} className="maskText mt-1">
-            Algo--Viz
-            <br />
-            <br />
-          </h1>
-        </div>
         <center>
           <div className="row mt-2">
-            <div className="col-sm-4 col-6">
+            <div className="col-sm-4 col-6" style={{ marginTop: 80 }}>
               <NavLink to="/word-search">
                 <img
                   className="img-fluid w-20 shadowB"
@@ -52,7 +31,7 @@ export default class IndexTable extends React.Component {
                 <p className="text-dark thumb-title">Word Searching</p>
               </NavLink>
             </div>
-            <div className="col-sm-4 col-6">
+            <div className="col-sm-4 col-6" style={{ marginTop: 80 }}>
               <NavLink to="/pathfinder">
                 <img
                   className="img-fluid w-20 shadowB"
@@ -62,7 +41,7 @@ export default class IndexTable extends React.Component {
                 <p className="text-dark thumb-title">Path Finding</p>
               </NavLink>
             </div>
-            <div className="col-sm-4 col-6">
+            <div className="col-sm-4 col-6" style={{ marginTop: 80 }}>
               <NavLink to="/sorting">
                 <img
                   className="img-fluid w-20 shadowB"
