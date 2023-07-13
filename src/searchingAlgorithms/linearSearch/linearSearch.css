@@ -60,8 +60,9 @@
     animation-duration: 400ms;
     animation-fill-mode: forwards;
     animation-direction: normal; */
-
+    transform: scale3d(1.2, 1.2, 1.2);
     transition: ease-in 500ms;
+    margin: 10px;
 }
 
 .highlight {

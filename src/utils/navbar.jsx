@@ -5,17 +5,17 @@ const NavBar = () => (
     <span>
       <a
         className="btn-sm text-decoration-none bg-dark rounded-0 text-light"
-        href="https://github.com/image0of0pie"
+        href="https://github.com/InsouciantPrithvi"
       >
         <i className="fab text-light fa-github"></i>
         &nbsp; Github Profile
       </a>
       <a
         className="btn-sm text-decoration-none bg-dark rounded-0 text-light"
-        href="https://www.linkedin.com/in/sarvajit-kumar-80329b185/"
+        href="https://www.linkedin.com/in/prithvi-raj-0b93621b3/"
       >
         <i className="fab text-light fa-linkedin"></i>
-        &nbsp; Sarvajit Kumar
+        &nbsp; Prithvi Raj
       </a>
     </span>
     <span

@@ -88,7 +88,7 @@ export default class BinarySearch extends React.Component {
             parseInt(target),
             animations
         );
-
+        console.log(animations);
         for (let k = 0; k < animations.length; k++) {
             const [left, right, mid, found] = animations[k];
             count++;
